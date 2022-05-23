@@ -16,15 +16,15 @@ public:
 		cout << "Shape 소멸 " << NAME << " 클래스" << endl; //객체가 소멸될 때 실행됨
 	}
 
-	int getA(int A) { //A값 리턴
+	int getA() { //A값 리턴
 		return A;
 	}
 
-	int getB(int B) { //B값 리턴
+	int getB() { //B값 리턴
 		return B;
 	}
 
-	int getC(int C) { //C값 리턴
+	int getC() { //C값 리턴
 		return C;
 	}
 	
